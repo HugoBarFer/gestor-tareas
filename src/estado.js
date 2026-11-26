@@ -1,4 +1,18 @@
 // src/estado.js — almacén de datos
+/**
+ * @typedef {Object} Tarea
+ * @property {number} id
+ * @property {string} texto
+ * @property {boolean} completada
+ */
+
+/**
+ * @typedef {Object} Estado
+ * @property {Tarea[]} tareas
+ * @property {"todas" | "pendientes" | "completadas"} filtro
+ */
+
+/** @type {Estado} */
 export const estado = {
   tareas: [
     { id: 1, texto: "Instalar Node y Vite", completada: true },
