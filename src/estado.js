@@ -19,6 +19,7 @@ export const estado = {
     { id: 2, texto: "Crear el proyecto gestor-tareas", completada: false },
     { id: 3, texto: "Crear el proyecto gestor-tareas", completada: true },
     { id: 4, texto: "Crear el proyecto gestor-tareas", completada: false },
+    { id: 5, texto: "Crear el proyecto gestor-tareas", completada: false },
   ],
   filtro: "todas",
 };
